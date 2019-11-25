@@ -3,27 +3,26 @@
         <div class="phone_banner">
             <div class="w">
                 <h3>首页/联系我们</h3>
-                 <h4>关于金网运物流</h4>
+                 <h4>关于鹏程物流</h4>
             </div>
         </div>
         <div class="phoneMe_header">
             <div class="w">
-                <h3>联系金网运物流</h3>
+                <h3>联系鹏程物流</h3>
                  <div class="bottom_xian"></div>
                  <div class="banner">
-                     <img src="../../assets/banner3.png" alt="">
+                     <img src="../../assets/map.png" alt="" style="width: 110%">
                  </div>
             </div>
         </div>
         <div class="phone_bottom">
             <div class="w">
                 <ul>
-                    <li class="top">上海礼邦物流有限公司</li>
-                    <li class="bottom">上海市宝山区宝杨路1943号新宝科创园610室</li>
-                    <li class="qita">电 话：86-021-56493583</li>
-                    <li class="qita">传 真：86-021-56493782</li>
-                    <li class="qita">手 机：18616165099</li>
-                    <li class="qita">邮 箱：shangjingxin@reppon.com</li>
+                    <li class="top">上海鹏程物流有限公司</li>
+                    <li class="bottom">上海市浦东新区泰谷路18号8楼</li>
+                    <li class="qita">电 话：021-58202955</li>
+                    <li class="qita">Q Q：3361338348</li>
+                    <li class="qita">邮 箱：service@gangkou56.com</li>
                 </ul>
             </div>
         </div>
@@ -39,7 +38,7 @@ export default {
 <style lang="less">
     .phoneMe_container{
         .phone_banner{
-            background-color: #cc0000;
+            background-color: #337ab7;
             height:130px;
             box-sizing:border-box;
             padding:35px 0 30px 0;

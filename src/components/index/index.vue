@@ -3,7 +3,7 @@
        <div class="banner">
            <div class="w">
                <div class="top">
-                   <span>金网运物流</span>
+                   <span>鹏程物流</span>
                </div>
                <div class="cont">
                    <p>
@@ -11,8 +11,8 @@
                    </p>
                </div>
                <div class="bottom">
-                   <div>关于我们</div>
-                   <div>服务简介</div>
+                   <div @click="toAbout">关于我们</div>
+                   <div @click="toService">服务简介</div>
                </div>
            </div>
        </div>
@@ -21,12 +21,16 @@
                <div class="top">
                    <div class="top_xian"></div>
                    <div class="top_cont">
-                       关于金网运
+                       关于鹏程
                    </div>
                    <div class="bottom_xian"></div>
                </div>
                <div class="cont_cont">
-                   上海礼邦物流有限公司（原上海永达运输有限公司）成立于 2002 年，专业从事进出口集装箱运输、仓储、进口拆箱以及出口拼箱等多种形式的业务服务。公司拥有一批从事物流方面的专业人才，员工均接受过专业培训，本公司坚持以市场为导向、以客户为中心、以“感动服务”为行动的经营方针；并依照现代企业管理理念，采用现代物流先进的管理模式，可为贵公司提供全方位一体化的物流服务，为提高和保证服务质量，我公司建立了一整套完整的物流服务管理系统，从客户接待、业务洽谈、货物运输、客户意见反馈、电话回访等、都有专人负责，专人管理；我公司相信，经过一系列的努力，能树立良好的企业形象，成为同行业发展的典范。
+                   上海鹏程物流有限公司是集集装箱运输及堆存的专业运输公司，有十二年的运营经验，是一家手续齐全的运输企业。宗旨是“以信誉高效求发展，靠安全快捷
+                   谋生存”。目前公司拥有集装箱专业运输车辆36部，小松四十吨集装箱正面吊一台，合力大型叉车一台，集装箱暂落场地9000平方，专业操作及
+                   技术人员16名，目前主要从事集装箱货物运输代理，门到门运输，危险品运输、恒温箱运输、白卡服务，这种三合一的车辆有10部。空重箱暂落服务以及内装
+                   拼箱业务。我们不但拥有一流的车队，还有一流的信誉，一流的服务以及合理的运输价格，合作的基础源于相互信任，安全的保障来自雄厚的实力，上海鹏程
+                   物流有限公司公司是您理想的选择。
                </div>
            </div>
        </div>
@@ -109,6 +113,15 @@ export default {
             this.$('.index-cont .banner .cont').css({opacity:1,marginTop:'40px'})
             this.$('.index-cont .banner .bottom').css({opacity:1,marginTop:'55px'})
         },100)
+    },
+    methods: {
+        toAbout:function(){
+            this.$router.push({name:'about'})
+        },
+        toService: function(){
+            this.$router.push({name:'service'})
+        }
+
     }
 }
 </script>
@@ -117,7 +130,7 @@ export default {
     .index-cont{
         .banner{
             height:900px;
-            background:url(../../assets/banner.png) no-repeat center center;
+            background:url(../../assets/login-one-bg.jpg) no-repeat center center;
             background-size:cover;
             overflow:hidden;
             .top{

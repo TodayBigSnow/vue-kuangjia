@@ -4,12 +4,11 @@
       <div class="w">
         <div class="header-box">
           <div class="left" style="padding-left:20px;">
-            <h1 style="display:flex; align-items: end;">
-              <a href="javascript:;" style="display:inline-block; margin-right:">
+            <h2 style="display:flex; align-items: end; ">
+              <a href="javascript:;" style="display:inline-block;">
                 <img src="./assets/logo1.png" alt="">
               </a>
-              金网运物流
-            </h1>
+            </h2>
           </div>
           <div class="right">
             <ul>     
@@ -38,7 +37,7 @@
       <div class="w">
         <div class="top">
           <ul>
-            <li><span>金网运物流</span></li>
+            <li><span>鹏程物流</span></li>
             <li><span>上海物流运输</span></li>
             <li><span>联系方式</span></li>
             <li><span>技术支持</span></li>
@@ -55,8 +54,8 @@
           </div>
           <div>
             <dl>
-              <dd>金网运物流</dd>
-              <dd>ENG/英文版</dd>
+              <dd>鹏程物流</dd>
+<!--              <dd>ENG/英文版</dd>-->
               <dd></dd>
               <dd></dd>
             </dl>
@@ -64,10 +63,10 @@
           <div>
             <dl>
               <dd>联系方式</dd>
-              <dd>电话：86-021-56493583</dd>
-              <dd>传真：86-021-56493782</dd>
-              <dd>手机：18616165099</dd>
-              <dd>邮箱：shangjingxin@reppon.com</dd>
+              <dd>客服：400-8215617</dd>
+              <dd>电话：021-58202955</dd>
+              <dd>QQ：3361338348</dd>
+              <dd>邮箱：service@gangkou56.com</dd>
             </dl>
           </div>
           <div>
@@ -80,7 +79,7 @@
         </div>
         <div class="bottom">
           <div></div>
-          Copyright © 2018 金网运物流 上海市宝山区宝杨路1943号新宝科创园610室 沪ICP备18039351号
+          Copyright © 2018 驮鸟物流 上海市浦东新区泰谷路18号8楼 沪ICP备17024569号-2
         </div>
       </div>
     </div>
@@ -157,6 +156,10 @@ div,ul,li,table,tr,td,th,h1,h2,h3,h4,h5,h6,dl,dd,dt{
         justify-content:space-between;
         .left{
 
+          img{
+            transform: translateY(16%);
+            width: 250px;
+          }
         }
         .right{
            width:60%;

@@ -9,7 +9,7 @@
         <div class="service_banner">
             <div class="w">
                 <h3>服务介绍</h3>
-                <div>金网运物流 提供快速且优质的货品运输报关服务</div>
+                <div>鹏程物流 提供快速且优质的货品运输报关服务</div>
             </div>
         </div>
         <div class="service_cont">
@@ -44,7 +44,7 @@ export default {
 
     .service-cont{
         .service_header{
-            background-color: #cc0000;
+            background-color: #337ab7;
             height:130px;
             box-sizing:border-box;
             padding:35px 0 30px 0;
@@ -64,7 +64,7 @@ export default {
             padding-top: 220px;
             box-sizing:border-box;
             height: 780px;
-            background:url('../../assets/banner1.png') no-repeat center center;
+            background:url('../../assets/file-read-143.png') no-repeat center center;
             background-size:cover;
             h3{
                 font-size: 80px;

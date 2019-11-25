@@ -8,7 +8,7 @@
         <div class="login_banner">
             <div class="login_go">
                 <div class="top">
-                    欢迎登陆金网运网站
+                    欢迎登陆鹏程网站
                 </div>
                 <div class="cont" >
                     <div style="margin-bottom:10px;">账号*</div>
@@ -52,7 +52,7 @@ export default {
 						'Content-Type':'application/json;'
 					}
             }).then((res)=>{
-                console.log(res)
+                console.log(res);
                 if(res.data.code == '1'){
                     this.$message({message:'登陆成功',type:'success'})
                     sessionStorage.setItem('obj',JSON.stringify(res.data.validateMap))
@@ -77,7 +77,7 @@ export default {
 <style lang="less" >
 .login-container{
     .login_header{
-        background-color: #cc0000;
+        background-color: #337ab7;
         height:80px;
         box-sizing:border-box;
         padding:30px 0 30px 0;
