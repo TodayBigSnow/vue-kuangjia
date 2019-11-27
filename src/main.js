@@ -26,7 +26,7 @@ if(location.href.indexOf('localhost') != -1){
 }else if(location.href.indexOf('reppon') != -1){
    url = 'http://www.gangkou56.com/tms_services/'
 }
-//url = 'http://www.gangkou56.com/tms_services/'
+url = 'http://www.gangkou56.com/tms_services/'
 axios.defaults.baseURL =url
 Vue.prototype.$ = $
 Vue.config.productionTip = false
