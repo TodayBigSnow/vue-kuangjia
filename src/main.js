@@ -20,13 +20,7 @@ Vue.prototype.$util = util
 Vue.prototype.$ = $
 // axios.defaults.baseURL = 'https://jyzl.ijiyun.cn/zms_services/'
 var url;
-if(location.href.indexOf('localhost') != -1){
-   url = 'http://localhost:8080/tms_services/'
-  //  url = '192.168.1.178:8080/reppon_services/'
-}else if(location.href.indexOf('reppon') != -1){
-   url = 'http://www.gangkou56.com/tms_services/'
-}
-url = 'http://www.gangkou56.com/tms_services/'
+url = 'http://www.gangkou56.com/tms_services/';
 axios.defaults.baseURL =url
 Vue.prototype.$ = $
 Vue.config.productionTip = false
