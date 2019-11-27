@@ -140,10 +140,12 @@ export default {
             var data = {
                 imgs:this.imgArr,
                 companyId: this.obj.companyId,
-                customerId: this.obj.customerId,
-                customerName:this.obj.name
+                // customerId: this.obj.customerId,
+                // customerName:this.obj.name
             }
-            this.axios.post('customerImg/saveCustomerImg',data,).then(res=>{
+            console.log(data);
+            console.log("进来了");
+            this.axios.post('companyImg/saveCompanyImg',data,).then(res=>{
                 if(res.data.code === '1'){
                     this.$message({
                         message:'上传成功',
@@ -247,10 +249,10 @@ export default {
             this.updateSelected = false
             var data = new FormData();//重点在这
             data.append("file",this.fileArr)
-            data.append("companyId",this.obj.companyId)
-            data.append("customerId",this.obj.customerId)
-            data.append("customerName",this.obj.name)
-            this.axios.post('customerImg/uploadExcelOrder',data).then(res=>{
+            data.append("companyId",this.obj.companyId);
+            // data.append("customerId",this.obj.customerId)
+            // data.append("customerName",this.obj.name)
+            this.axios.post('companyImg/uploadExcelOrder',data).then(res=>{
 				if(res.data.code === '1'){
                     this.$message({message:'上传成功',type:'success'})
                     this.imgBoxclear()

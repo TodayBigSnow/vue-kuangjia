@@ -54,6 +54,7 @@ export default {
             }).then((res)=>{
                 console.log(res);
                 if(res.data.code == '1'){
+                    console.log(res);
                     this.$message({message:'登陆成功',type:'success'})
                     sessionStorage.setItem('obj',JSON.stringify(res.data.validateMap))
                     this.$store.commit('setLoginObj',res.data.validateMap)

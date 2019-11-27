@@ -9,7 +9,7 @@
         <div class="about_banner">
             <div class="w">
                 <h3>关于我们</h3>
-                <div>鹏程物流 提供快速且优质的货品运输报关服务</div>
+                <div>鹏程物流——提供快速且优质的货品运输报关服务</div>
             </div>
         </div>
         <div class="about_cont">
@@ -88,7 +88,7 @@ export default {
         padding-top: 220px;
         box-sizing:border-box;
         height: 780px;
-        background:url('../../assets/banner5.png') no-repeat center center;
+        background:url('../../assets/login-two-bg.jpg') no-repeat center top;
         background-size:cover;
         h3{
             font-size: 80px;

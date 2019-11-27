@@ -373,7 +373,7 @@ export default {
     margin: 0 auto;
   }
   .billNoSearch_header {
-    background-color: #cc0000;
+    background-color: #337ab7;
     height: 130px;
     box-sizing: border-box;
     padding: 35px 0 30px 0;
@@ -445,7 +445,7 @@ export default {
             border-radius: 5px;
             border: 0;
             color: #fff;
-            background: #ff720f !important;
+            background: #337ab7 !important;
             font-size: 16px;
             line-height: 35px;
             text-align: center;

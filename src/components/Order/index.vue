@@ -1,6 +1,7 @@
 <template>
     <div class="index-container">
         <excil v-if="flag" @excilFn="selectedFn" :selected="updateSelected"></excil>
+
        <!-- <div class="nav">
           <div class="w">
             <el-row>
@@ -12,15 +13,16 @@
                 </el-menu>
            </el-row>
           </div>
-       </div> -->
-       <!-- <div class="banner">
+       </div>
+       <div class="banner">
                <el-carousel :interval="5000" arrow="always" height="400px" type="card">
                     <el-carousel-item v-for="(item,i) in arr" :key="i" >
                         <img :src="item.url" alt="" style="height:100%;">
                         <div style="position:absolute;z-index:1000;top:30px;left:50%;transform: translateX(-50%);color:#fff;padding:20px;font-size:30px;">{{item.name}}</div>
                     </el-carousel-item>
                 </el-carousel>
-       </div> -->
+       </div>
+        -->
        <div class="cont">
            <div class="w">
                <el-row>
@@ -45,6 +47,7 @@
                </el-row>
            </div>
        </div>
+
  
         <!-- <div class="search-cont">
             <el-card class="box-card">
@@ -57,6 +60,8 @@
                 </div>
             </el-card>
         </div> -->
+
+
     </div>
 </template>
 

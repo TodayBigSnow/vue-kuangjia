@@ -7,7 +7,7 @@
                </div>
                <div class="cont">
                    <p>
-                       本公司拥有一批专业的管理 人员和专业的运输队伍，以严格，科学的管理手段，现代化的办公设施。通过物流配送服务，将客户的货品运达全球任何地方。
+                       本公司拥有一批专业的管理人员和专业的运输队伍，以严格，科学的管理手段，现代化的办公设施。通过物流配送服务，将客户的货品运达全球任何地方。
                    </p>
                </div>
                <div class="bottom">
@@ -26,11 +26,11 @@
                    <div class="bottom_xian"></div>
                </div>
                <div class="cont_cont">
-                   上海鹏程物流有限公司是集集装箱运输及堆存的专业运输公司，有十二年的运营经验，是一家手续齐全的运输企业。宗旨是“以信誉高效求发展，靠安全快捷
-                   谋生存”。目前公司拥有集装箱专业运输车辆36部，小松四十吨集装箱正面吊一台，合力大型叉车一台，集装箱暂落场地9000平方，专业操作及
-                   技术人员16名，目前主要从事集装箱货物运输代理，门到门运输，危险品运输、恒温箱运输、白卡服务，这种三合一的车辆有10部。空重箱暂落服务以及内装
-                   拼箱业务。我们不但拥有一流的车队，还有一流的信誉，一流的服务以及合理的运输价格，合作的基础源于相互信任，安全的保障来自雄厚的实力，上海鹏程
-                   物流有限公司公司是您理想的选择。
+                   上海鹏程物流有限公司是集集装箱运输及堆存的专业运输公司，有十二年的运营经验，是一家手续齐全的运输企业。公司宗旨是“以信誉高效求发展，靠安全快捷
+                   谋生存”。目前公司拥有集装箱专业运输车辆36部，小松四十吨集装箱正面吊一台，合力大型叉车一台，集装箱暂落场地9000平方，专业操作及技术人员16名，
+                   目前主要从事集装箱货物运输代理，门到门运输、危险品运输、恒温箱运输、白卡服务，这种三合一的车辆有10部。空重箱暂落服务以及内装拼箱业务。
+                   我们不但拥有一流的车队，还有一流的信誉，一流的服务以及合理的运输价格，合作的基础源于相互信任，安全的保障来自雄厚的实力，上海鹏程物流有限公司是您理想的选择。
+                   
                </div>
            </div>
        </div>
@@ -72,8 +72,8 @@
                <div class="top">
                    <div class="top_xian"></div>
                    <div class="top_cont_n">
-                        <h3 style="color:#2790b0;">我们的客户</h3>
-                        提供优质的运输配送服务 诚信，准时，安全，便利
+                        <h3 >我们的服务宗旨</h3>
+                        <h4 style="color:#2790b0;">提供优质的运输配送服务 诚信，准时，安全，便利</h4>
                    </div>
                </div>
                <div class="cont_bottom1">
@@ -83,16 +83,14 @@
                </div>
                <div class="img_box">
                    <ul>
-                       <li style="margin:0;"><img src="../../assets/1.jpg" alt=""></li>
-                       <li><img src="../../assets/2.jpg" alt=""></li>
-                       <li><img src="../../assets/3.jpg" alt=""></li>
-                       <li><img src="../../assets/4.jpg" alt=""></li>
-                       <li><img src="../../assets/5.png" alt=""></li>
-                       <li><img src="../../assets/6.gif" alt=""></li>
-                       <li><img src="../../assets/7.gif" alt=""></li>
-                       <li><img src="../../assets/8.png" alt=""></li>
-                       <li><img src="../../assets/10.gif" alt=""></li>
-                       <li><img src="../../assets/11.png" alt=""></li>
+                       <li style="margin:0;"><img src="../../assets/alibaba.png" alt=""></li>
+                       <li><img src="../../assets/zhongwaiyun.jpg" alt=""></li>
+                       <li><img src="../../assets/meishe.jpg" alt=""></li>
+                       <li><img src="../../assets/jianeng.gif" alt=""></li>
+                       <li><img src="../../assets/mayibida.png" alt=""></li>
+                       <li><img src="../../assets/zhongyuan1.png" alt=""></li>
+                       <li><img src="../../assets/xinxinyun.gif" alt=""></li>
+                       <li><img src="../../assets/boe.png" alt=""></li>
                    </ul>
                </div>
            </div>
@@ -142,7 +140,7 @@ export default {
                   font-size:70px;
                   color:#fff;  
                   font-weight:700;
-                  border-bottom:7px solid red;
+                //   border-bottom:2px solid red;
                 }
             }
             .cont{
@@ -153,7 +151,7 @@ export default {
                     width: 878px;
                     margin: 30px auto;
                     color: #fff;
-                    font-size: 28px;
+                    font-size: 25px;
                     line-height: 44px;
                     text-align: center;
                     font-weight: normal;
@@ -178,8 +176,8 @@ export default {
                     transition:all .3s;
                 }
                 div:hover{
-                    background-color:red;
-                    border:1px solid red;
+                    background-color:#2790b0;
+                    border:1px solid #2790b0;
                     
                 }
             }
@@ -229,7 +227,7 @@ export default {
                         margin-top: -4.5px;
                     }
                     h3{
-                        font-weight:400;
+                        font-weight:700;
                         margin-bottom: 20px;
                     }
                 }
@@ -241,7 +239,7 @@ export default {
                 padding-bottom: 10px;
                 position: relative;
                 span{
-                    font-weight:700;
+                    font-weight:bolder;
                     border-bottom:4px solid #2790B0;
                     padding-bottom: 10px;
                     position: relative;

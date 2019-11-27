@@ -287,7 +287,7 @@ export default {
         this.getBoxTypeList()
         if(this.$route.query.orderId){
             this.updateSelected = true
-            this.updateGetInfo(this.$route.query.orderId)
+            this.updateGetInfo(this.$route.query.orderId);
         }
         if(!this.$util.testingLogin.call(this)){
           return
@@ -303,6 +303,8 @@ export default {
                     'Content-Type':'application/json;charset=UTF-8'
                 }
             }).then(res=>{
+                console.log("***8888****");
+                console.log(res);
                 res.data.order.isExport = res.data.order.isExport == 1 ? '进口' : '出口'
                 this.form.order = res.data.order
                 res.data.containerList.forEach(item=>{
@@ -415,8 +417,10 @@ export default {
             var data = {
                 
             }
-            var dataOrder = this.$util.instanceOfObj(this.form.order)
-            var dataArr = this.$util.instanceOfObj(this.form.boxArr)
+            var dataOrder = this.$util.instanceOfObj(this.form.order);
+            console.log(dataOrder);
+            var dataArr = this.$util.instanceOfObj(this.form.boxArr);
+            console.log(dataArr);
             if(dataArr.length == 0){
                 this.$message('请至少选择一个箱子')
                 return
